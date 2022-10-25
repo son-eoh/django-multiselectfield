@@ -27,7 +27,7 @@ Install with pip
 
 .. code-block:: bash
 
-    $ pip install django-multiselectfield
+    $ pip install fork-django-multiselectfield
 
 Configure your models.py
 ------------------------
