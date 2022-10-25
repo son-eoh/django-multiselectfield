@@ -30,10 +30,10 @@ def read(*rnames):
 
 
 setup(
-    name="django-multiselectfield",
-    version="0.1.12",
-    author="Pablo Martin",
-    author_email="goinnn@gmail.com",
+    name="fork-django-multiselectfield",
+    version="0.1.0",
+    author="Son (fork from Pablo Martin)",
+    author_email="son.lg@eoh.io",
     description="Django multiple select field",
     long_description=(read('README.rst') + '\n\n' + read('CHANGES.rst')),
     classifiers=[
@@ -53,7 +53,7 @@ setup(
     ],
     license="LGPL 3",
     keywords="django,multiple,select,field,choices",
-    url='https://github.com/goinnn/django-multiselectfield',
+    url='https://github.com/son-eoh/django-multiselectfield',
     packages=find_packages(),
     include_package_data=True,
     tests_require=[
